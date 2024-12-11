@@ -32,5 +32,7 @@ models:
   jaffle_shop:
     staging:
       +materialized: view
+      +schema: stg_cthomas
     marts:
       +materialized: table
+      +schema: mart_cthomas
